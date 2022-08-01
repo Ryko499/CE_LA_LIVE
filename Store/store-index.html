@@ -23,8 +23,16 @@
             </div>
         </div>
     </nav>
-    <div class="col-md-12">
-        <div data-reflow-type="shopping-cart" data-reflow-success-url="success.html" style="padding-right: 21px;padding-left: 21px;"></div>
+    <div class="container" style="padding-right: 21px;padding-left: 21px;">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Products</h1>
+                <h1 style="text-align: center;">Chairs</h1>
+                <div data-reflow-type="product-list" data-reflow-layout="cards" data-reflow-order="date_desc" data-reflow-product-link="Store/store-product.html?product={id}" data-reflow-category="795882959" data-reflow-show="image,name,pagination"></div>
+                <h1 style="text-align: center;">Tables</h1>
+                <div data-reflow-type="product-list" data-reflow-layout="cards" data-reflow-order="date_desc" data-reflow-product-link="Store/store-product.html?product={id}" data-reflow-category="541629276" data-reflow-show="image,name,pagination"></div>
+            </div>
+        </div>
     </div>
     <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdn.reflowhq.com/v1/toolkit.min.js" data-reflow-store="511017400"></script>

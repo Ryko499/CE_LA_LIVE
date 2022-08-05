@@ -17,44 +17,36 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-light navbar-expand sticky-top" style="background: var(--bs-gray-dark);box-shadow: 2px 1px;/*align-content: center;*/text-align: center;">
-        <div class="container">
-            <div><a href="contact-us.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor" style="font-size: 31px;color: var(--bs-gray);margin-right: 15px;">
-                        <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
-                        <path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"></path>
-                    </svg></a><a href="https://www.instagram.com/caesareventsla/?hl=en"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-32 0 512 512" width="1em" height="1em" fill="currentColor" style="font-size: 31px;color: var(--bs-gray);margin-right: 15px;">
-                        <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
-                        <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path>
-                    </svg></a><a href="contact-us.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor" style="font-size: 31px;color: var(--bs-gray);margin-right: 15px;">
-                        <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
-                        <path d="M0 128C0 92.65 28.65 64 64 64H448C483.3 64 512 92.65 512 128V384C512 419.3 483.3 448 448 448H64C28.65 448 0 419.3 0 384V128zM48 128V150.1L220.5 291.7C241.1 308.7 270.9 308.7 291.5 291.7L464 150.1V127.1C464 119.2 456.8 111.1 448 111.1H64C55.16 111.1 48 119.2 48 127.1L48 128zM48 212.2V384C48 392.8 55.16 400 64 400H448C456.8 400 464 392.8 464 384V212.2L322 328.8C283.6 360.3 228.4 360.3 189.1 328.8L48 212.2z"></path>
-                    </svg></a></div>
-            <div class="collapse navbar-collapse" id="navcol-1" style="font-size: 17px;">
-                <ul class="navbar-nav">
-                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" data-bs-auto-close="outside" href="#" style="font-weight: bold;"><span style="color: rgba(255, 255, 255, 0.7);">Branches</span></a>
-                        <div class="dropdown-menu dropdown-menu-dark"><a class="dropdown-item" href="Caesar-LA-index.html">Los Angeles</a><a class="dropdown-item" href="Caesar-SD.html">San Diego</a></div>
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-secondary bg-gradient" id="mainNav" style="margin-top: -5px;">
+        <div class="container"><a class="navbar-brand" href="index.html" style="background: url(&quot;assets/img/Untitled%20design%20(1).png&quot;) center / cover no-repeat;width: 85px;height: 45px;filter: brightness(200%) contrast(200%);"></a><button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" style="background: var(--bs-gray);"><i class="fa fa-bars fs-1 text-info"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto text-uppercase">
+                    <li class="nav-item dropdown"><a class="nav-link" aria-expanded="false" data-bs-toggle="dropdown" data-bs-auto-close="outside" href="#" style="color: var(--bs-cyan);">Branches</a>
+                        <div class="dropdown-menu dropdown-menu-dark"><a class="dropdown-item" href="Caesar-LA-index.html">Los Angeles</a><a class="dropdown-item" href="Caesar-SD.html">San diego</a></div>
                     </li>
                     <li class="nav-item"></li>
-                    <li class="nav-item"><a class="nav-link" href="about-us.html" style="font-weight: bold;color: var(--bs-gray-600);">About</a></li>
-                </ul><a href="index.html" style="width: 120px;height: 100px;color: rgba(13,110,253,0);">
-                    <div style="background: url(&quot;assets/img/Untitled%20design%20(1).png&quot;) center / cover no-repeat;height: 100px;padding-right: 0px;margin-right: 20px;filter: brightness(200%);margin-left: 3px;"></div>
-                </a>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"><a class="nav-link" href="about-us.html" style="color: var(--bs-white);">About</a></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact-us.html" style="color: var(--bs-white);">Contact</a></li>
+                </ul>
             </div>
         </div>
     </nav>
     <main class="page contact-us-page">
-        <section class="clean-block clean-form dark" style="text-align: center;margin-bottom: -15px;">
-            <div class="container">
-                <div class="block-heading">
-                    <h2 style="font-weight: bold;font-size: 50.1px;color: var(--bs-primary);margin-top: 35px;">Contact Us</h2>
-                    <p style="font-size: 21px;"><br><span style="color: rgb(46, 60, 64); background-color: rgba(246, 246, 246, 0);">Let us know any thoughts or questions you may have. We would love to hear from you.</span><br><br></p>
+        <section class="clean-block clean-form dark" style="text-align: center;margin-bottom: -15px;padding-top: 37px;margin-top: 80px;background: url(&quot;assets/img/Chairs%20(15).png&quot;), rgba(25,153,181,0.4);">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12"><img class="img-fluid" src="assets/img/Chairs%20(29).png" style="padding-top: 0px;margin-top: -37px;"></div>
                 </div>
-                <form>
+            </div>
+            <div class="container-fluid">
+                <form class="text-uppercase fw-bolder text-primary">
                     <div class="mb-3"><label class="form-label" for="name" style="font-size: 18px;">Name</label><input class="form-control" type="text" id="name" name="name"></div>
                     <div class="mb-3"><label class="form-label" for="subject" style="font-size: 18px;">Phone</label><input class="form-control" type="tel" id="subject" name="phone"></div>
                     <div class="mb-3"><label class="form-label" for="email" style="font-size: 18px;">Email</label><input class="form-control" type="email" id="email" name="email"></div>
                     <div class="mb-3"><label class="form-label" for="message" style="font-size: 18px;">Message</label><textarea class="form-control" id="message" name="message"></textarea></div>
-                    <div class="mb-3" style="text-align: center;margin-top: 0px;"><button class="btn btn-primary" type="submit" style="font-weight: bold;font-size: 25px;">Send</button></div>
+                    <div class="mb-3" style="text-align: center;margin-top: 0px;"><button class="btn btn-dark disabled" type="submit" style="font-weight: bold;font-size: 25px;" disabled="">Send</button></div>
                 </form>
             </div>
             <div class="container-fluid" style="margin-top: 20px;">
@@ -62,7 +54,7 @@
                     <div class="col-md-12"><iframe allowfullscreen="" frameborder="0" loading="lazy" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCDTVjwBokmRJfUcEoibn93aklYbN6UGw0&amp;q=Los+Angeles&amp;zoom=11" width="100%" height="400"></iframe></div>
                 </div>
             </div>
-            <h1 style="margin-top: 25px;font-family: Oswald, sans-serif;font-size: 40.9px;">California Branches</h1>
+            <h1 style="margin-top: 25px;font-family: Oswald, sans-serif;font-size: 40.9px;color: var(--bs-indigo);border: 3.4px solid var(--bs-indigo) ;">California Branches</h1>
             <div class="container-fluid" style="margin-top: 20px;">
                 <div class="row">
                     <div class="col-md-12">
@@ -85,10 +77,10 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6" style="margin-top: 10px;">
-                        <p style="font-weight: bold;text-align: left;font-size: 24px;font-family: Oswald, sans-serif;"><span style="color: rgb(46, 60, 64); background-color: rgba(246, 246, 246, 0);">7020 Hayvenhurst Ave-unit A, Van Nuys, CA 91406</span><br><span style="color: rgb(46, 60, 64); background-color: rgba(246, 246, 246, 0);">310-429-1805, 310-913-9355</span><br><span style="color: inherit; background-color: rgba(246, 246, 246, 0);">contact@caesareventsla.com</span><br><span style="color: inherit; background-color: rgba(246, 246, 246, 0);">Visit Our Showroom: Tours are by appointment only</span><br></p>
+                        <p style="font-weight: bold;text-align: left;font-size: 24px;font-family: Oswald, sans-serif;border-color: var(--bs-indigo);"><span style="color: rgb(54, 105, 237); background-color: rgba(246, 246, 246, 0);">7020 Hayvenhurst Ave-unit A, Van Nuys, CA 91406</span><br><span style="color: rgb(54, 105, 237); background-color: rgba(246, 246, 246, 0);">310-429-1805, 310-913-9355</span><br><span style="color: rgb(54, 105, 237); background-color: rgba(246, 246, 246, 0);">contact@caesareventsla.com</span><br><span style="color: rgb(54, 105, 237); background-color: rgba(246, 246, 246, 0);">Visit Our Showroom: Tours are by appointment only</span><br></p>
                     </div>
                     <div class="col-md-6" style="margin-top: 10px;font-family: Oswald, sans-serif;font-size: 24px;">
-                        <p style="font-weight: bold;font-size: 24px;font-style: italic;">Coming Soon!</p>
+                        <p style="font-weight: bold;font-size: 24px;font-style: italic;border-color: var(--bs-indigo);"><span style="color: rgb(31, 128, 225);">Coming Soon!</span></p>
                     </div>
                 </div>
             </div>
@@ -127,6 +119,7 @@
         </div>
     </footer>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/smart-forms.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.js"></script>
     <script src="assets/js/vanilla-zoom.js"></script>
